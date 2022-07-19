@@ -1,0 +1,38 @@
+.services {
+  width: 100%;
+  background-color: var(--colorLight);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  padding: 30px 10px;
+}
+.box {
+  max-width: 465px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 15px 15px;
+  border-radius: 8px;
+  margin: 15px 0 0 0;
+  background-color: var(--colorSecondary);
+}
+.containerImg {
+}
+.image {
+  object-fit: cover;
+}
+.text {
+  width: 300px;
+}
+.h3 {
+  font-size: 1.2rem;
+  color: var(--colorLight);
+}
+.p {
+  font-size: 0.9rem;
+  color: #f4f4f4;
+}

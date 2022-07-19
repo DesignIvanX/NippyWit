@@ -1,0 +1,26 @@
+.newsletter {
+  background-color: var(--colorSecondary);
+  padding: 50px;
+  text-align: center;
+}
+.h2 {
+  font-size: 1.8rem;
+  color: var(--colorLight);
+  margin: 50px 0;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 50px 0;
+}
+.input {
+  background: #ffffff;
+  box-shadow: 0px 4px 84px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  outline: none;
+  padding: 15px 50px;
+  border: none;
+}

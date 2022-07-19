@@ -1,0 +1,30 @@
+.buttonFill {
+  font-size: 1rem;
+  padding: 10px 25px;
+  border-radius: 8px;
+  background-color: var(--colorPrimary);
+  color: var(--colorLight);
+  border: 2px solid var(--colorPrimary);
+  outline: none;
+  cursor: pointer;
+  transition: 500ms all;
+}
+.buttonFill:hover {
+  background-color: var(--colorLight);
+  color: var(--colorPrimary);
+}
+.buttonUnfilled {
+  font-size: 1rem;
+  padding: 10px 25px;
+  border-radius: 8px;
+  background-color: var(--colorLight);
+  color: var(--colorPrimary);
+  border: 2px solid var(--colorPrimary);
+  outline: none;
+  cursor: pointer;
+  transition: 500ms all;
+}
+.buttonUnfilled:hover {
+  background-color: var(--colorPrimary);
+  color: var(--colorLight);
+}

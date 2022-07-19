@@ -1,0 +1,18 @@
+.clients {
+}
+.h2 {
+  text-align: center;
+  color: var(--colorBlack);
+  font-size: 1.8rem;
+}
+.clientsContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.images {
+  margin: 10px 0;
+}

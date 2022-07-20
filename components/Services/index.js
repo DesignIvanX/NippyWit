@@ -7,7 +7,7 @@ export const Services = () => {
         <div className={styles.containerImg}>
           <Image
             className={styles.image}
-            src="/static/seo.png"
+            src="/static/services/seo.png"
             alt=""
             width={55}
             height={55}
@@ -22,7 +22,7 @@ export const Services = () => {
         <div className={styles.containerImg}>
           <Image
             className={styles.image}
-            src="/static/social.png"
+            src="/static/services/social.png"
             alt=""
             width={55}
             height={55}
@@ -37,7 +37,7 @@ export const Services = () => {
         <div className={styles.containerImg}>
           <Image
             className={styles.image}
-            src="/static/shop.png"
+            src="/static/services/shop.png"
             alt=""
             width={55}
             height={55}
@@ -52,7 +52,7 @@ export const Services = () => {
         <div className={styles.containerImg}>
           <Image
             className={styles.image}
-            src="/static/web.png"
+            src="/static/services/web.png"
             alt=""
             width={55}
             height={55}

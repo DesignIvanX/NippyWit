@@ -1,0 +1,32 @@
+.information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px 0;
+  padding: 0 10px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  gap: 2rem;
+}
+.containerImage {
+  object-fit: cover;
+}
+.containerText {
+  max-width: 500px;
+}
+.h2 {
+  font-size: 1.8rem;
+}
+.p {
+  font-size: 0.9rem;
+  color: #545454;
+}
+.active {
+  color: var(--colorPrimary);
+}

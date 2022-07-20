@@ -34,24 +34,30 @@ export const Footer = () => {
           <p className={styles.contactP}>+908 89097 890</p>
         </div>
         <div>
-          <Image
-            src="/static/social/instagram.png"
-            alt="instagram"
-            width={80}
-            height={80}
-          />
-          <Image
-            src="/static/social/facebook.png"
-            alt="facebook"
-            width={80}
-            height={80}
-          />
-          <Image
-            src="/static/social/twitter.png"
-            alt="twitter"
-            width={80}
-            height={80}
-          />
+          <a href="">
+            <Image
+              src="/static/social/instagram.png"
+              alt="instagram"
+              width={80}
+              height={80}
+            />
+          </a>
+          <a href="">
+            <Image
+              src="/static/social/facebook.png"
+              alt="facebook"
+              width={80}
+              height={80}
+            />
+          </a>
+          <a href="">
+            <Image
+              src="/static/social/twitter.png"
+              alt="twitter"
+              width={80}
+              height={80}
+            />
+          </a>
         </div>
       </div>
       <div className={styles.foot}>

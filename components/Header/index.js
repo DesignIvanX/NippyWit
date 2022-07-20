@@ -7,7 +7,7 @@ export const Header = () => {
       <div>
         <img
           className={styles.wave}
-          src="/static/wave.png"
+          src="/static/header/wave.png"
           alt=""
           width={50}
           height={550}
@@ -31,7 +31,7 @@ export const Header = () => {
         <section className={styles.section}>
           <Image
             className={styles.image}
-            src="/static/header.png"
+            src="/static/header/header.png"
             alt=""
             width={450}
             height={440}

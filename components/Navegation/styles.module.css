@@ -52,7 +52,7 @@
 @media screen and (max-width: 650px) {
   .ul {
     position: fixed;
-    top: 99px;
+    top: 95px;
     right: 0;
     padding: 50px 70px;
     background-color: var(--colorLight);

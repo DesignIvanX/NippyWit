@@ -9,28 +9,28 @@ export const Clients = () => {
       <div className={styles.clientsContent}>
         <Image
           className={styles.images}
-          src="/static/clients/uhg.png"
+          src="/static/clients/beneoshop.png"
           alt=""
           width={170}
           height={150}
         />
         <Image
           className={styles.images}
-          src="/static/clients/uhg.png"
+          src="/static/clients/caspio.png"
           alt=""
           width={170}
           height={150}
         />
         <Image
           className={styles.images}
-          src="/static/clients/uhg.png"
+          src="/static/clients/HyperGrid.png"
           alt=""
           width={170}
           height={150}
         />
         <Image
           className={styles.images}
-          src="/static/clients/uhg.png"
+          src="/static/clients/leotrippi.png"
           alt=""
           width={170}
           height={150}

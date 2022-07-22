@@ -3,6 +3,7 @@
   /* background: rgba(16, 144, 203, 0.1); */
   background-color: var(--colorSecondary);
   padding: 150px 0 100px 0;
+  margin-top: 100px;
 }
 .wave {
   position: absolute;

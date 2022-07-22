@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 export const About = () => {
   return (
     <section className={styles.about}>
-      <div>
+      <div className={styles.videoContainer}>
         <iframe
           className={styles.video}
           src="https://www.youtube.com/embed/kM_NbktXHLw"

@@ -22,8 +22,9 @@
 .h1 {
   font-family: var(--fontPrimary);
   font-size: 2.5rem;
-  line-height: 0.9;
+  line-height: 1.1;
   margin: 0;
+  text-transform: uppercase;
 }
 .p {
   font-size: 1.1rem;

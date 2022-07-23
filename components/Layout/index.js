@@ -5,7 +5,7 @@ import { Line } from "../Line";
 import styles from "./styles.module.css";
 export const Layout = ({ children }) => {
   return (
-    <main className={styles.layout}>
+    <main className={styles.layout} id="layout">
       <Line />
       <Navegation />
       {children}

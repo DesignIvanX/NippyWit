@@ -1,27 +1,32 @@
 import Image from "next/image";
 import { Button } from "../Button";
+import Typed from "react-typed";
 import styles from "./styles.module.css";
 export const Header = () => {
   return (
     <header className={styles.headerContent}>
-      <div>
-        <img
-          className={styles.wave}
-          src="/static/header/wave.png"
-          alt=""
-          width={50}
-          height={550}
-        />
-      </div>
       <div className={styles.header}>
         <section className={styles.text}>
           <h1 className={styles.h1}>
-            Experienced <span className={styles.active}>mobile and web </span>
-            applications and website builders measuring.
+            <span className={styles.active}>Mejores soluciones </span>para tu
+            éxito en <br />
+            <Typed
+              strings={[
+                "tu e-commerce",
+                "línea",
+                "tu emprendimiento",
+                "tus redes sociales",
+                "tu empresa",
+              ]}
+              typeSpeed={50}
+              backSpeed={50}
+              loop
+            />
           </h1>
           <p className={styles.p}>
-            Good health is the state of mental, physical and social well being
-            and it does not just mean absence of diseases.
+            Brindar soluciones empresariales que promuevan a las MIPYMES a
+            ingresar al mundo en línea incrementando la capacidad de nuestros
+            clientes a su nuevo exito en linea.
           </p>
           <div className={styles.div}>
             <Button type="fill">Get Started</Button>

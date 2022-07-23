@@ -5,12 +5,6 @@
   padding: 150px 0 100px 0;
   margin-top: 100px;
 }
-.wave {
-  position: absolute;
-  right: 0;
-  top: 200px;
-  object-fit: cover;
-}
 .header {
   position: relative;
   margin: 0 auto;
@@ -51,9 +45,6 @@
 
 @media only screen and (max-width: 1000px) {
   .section {
-    display: none !important;
-  }
-  .wave {
     display: none !important;
   }
 }

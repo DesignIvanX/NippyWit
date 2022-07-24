@@ -1,8 +1,15 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
 import styles from "./styles.module.css";
 export const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <motion.footer
+      initial={{ y: 100, opacity: 0 }}
+      transition={{ duration: 1 }}
+      viewport={{ once: true }}
+      whileInView={{ y: 0, opacity: 1 }}
+      className={styles.footer}
+    >
       <div className={styles.container}>
         <div className={styles.containerOne}>
           <Image
@@ -61,10 +68,8 @@ export const Footer = () => {
         </div>
       </div>
       <div className={styles.foot}>
-        <h5 className={styles.footH5}>
-          Copyright ® 2021 Lorem All rights Rcerved
-        </h5>
+        <h5 className={styles.footH5}>Copyright® 2022 Nippy Wit</h5>
       </div>
-    </footer>
+    </motion.footer>
   );
 };

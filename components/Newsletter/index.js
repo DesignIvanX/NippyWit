@@ -11,18 +11,15 @@ export const Newsletter = () => {
       whileInView={{ opacity: 1 }}
       className={styles.newsletter}
     >
-      <h2 className={styles.h2}>
-        Lorem Ipsum is simply dummy text of the printing.
-      </h2>
+      <h2 className={styles.h2}>ESTAS INTERESADO EN NUESTROS SERVICIOS</h2>
       <form className={styles.form}>
-        <Typed
-          strings={["Ingresa tu correo electronico"]}
-          typeSpeed={50}
-          backSpeed={50}
-          loop
-        >
-          <input className={styles.input} type="email" required />
-        </Typed>
+        <input
+          className={styles.input}
+          type="email"
+          placeholder="Ingresa tu correo electronico"
+          required
+        />
+
         <Button type="fill">Subscribe</Button>
       </form>
     </motion.section>

@@ -1,4 +1,4 @@
-import { Button } from "../Button";
+import { Button } from "../../Button";
 import { motion } from "framer-motion";
 import styles from "./styles.module.css";
 export const About = () => {
@@ -13,9 +13,9 @@ export const About = () => {
       >
         <iframe
           className={styles.video}
-          src="https://www.youtube.com/embed/kM_NbktXHLw"
+          src="https://www.youtube.com/embed/CNgHTXSlVLM"
           title="YouTube video player"
-          frameBorder={0}
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>

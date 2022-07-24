@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Button } from "../Button";
+import { Button } from "../../Button";
 import Typed from "react-typed";
 import styles from "./styles.module.css";
 export const Header = () => {
@@ -23,7 +23,7 @@ export const Header = () => {
             />
           </h1>
           <p className={styles.p}>
-            Brindar soluciones empresariales que promuevan a las MIPYMES a
+            Brindar soluciones empresariales que promuevan a las PYMES a
             ingresar al mundo en línea incrementando la capacidad de nuestros
             clientes a su nuevo exito en linea.
           </p>

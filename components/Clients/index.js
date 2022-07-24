@@ -1,12 +1,19 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
 import styles from "./styles.module.css";
 export const Clients = () => {
   return (
     <section className={styles.clients}>
       <div className={styles.title}>
-        <h2 className={styles.h2}>You will be in good Company</h2>
+        <h2 className={styles.h2}>NUESTROS CLIENTES</h2>
       </div>
-      <div className={styles.clientsContent}>
+      <motion.div
+        initial={{ opacity: 0 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
+        whileInView={{ opacity: 1 }}
+        className={styles.clientsContent}
+      >
         <Image
           className={styles.images}
           src="/static/clients/beneoshop.png"
@@ -22,7 +29,6 @@ export const Clients = () => {
           height={150}
         />
         <Image
-          className={styles.images}
           src="/static/clients/HyperGrid.png"
           alt=""
           width={170}
@@ -35,7 +41,7 @@ export const Clients = () => {
           width={170}
           height={150}
         />
-      </div>
+      </motion.div>
     </section>
   );
 };

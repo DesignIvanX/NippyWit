@@ -1,18 +1,31 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
 import styles from "./styles.module.css";
 export const Information = () => {
   return (
     <section className={styles.information}>
       <div className={styles.box}>
-        <div className={styles.containerImage}>
+        <motion.div
+          initial={{ x: 100, opacity: 0 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+          whileInView={{ x: 0, opacity: 1 }}
+          className={styles.containerImage}
+        >
           <Image
             src="/static/Information/website.png"
             alt=""
             width={300}
             height={300}
           />
-        </div>
-        <div className={styles.containerText}>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+          whileInView={{ opacity: 1 }}
+          className={styles.containerText}
+        >
           <h3 className={styles.h2}>
             <span className={styles.active}>Lorem Ipsum </span>is simply dummy
             text of the printing.
@@ -23,18 +36,30 @@ export const Information = () => {
             projects. We build and develop mobile applications for several top
             platforms, including Android & IOS.
           </p>
-        </div>
+        </motion.div>
       </div>
       <div className={styles.box}>
-        <div className={styles.containerImage}>
+        <motion.div
+          initial={{ x: -100, opacity: 0 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+          whileInView={{ x: 0, opacity: 1 }}
+          className={styles.containerImage}
+        >
           <Image
             src="/static/Information/social.png"
             alt=""
             width={300}
             height={300}
           />
-        </div>
-        <div className={styles.containerText}>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+          whileInView={{ opacity: 1 }}
+          className={styles.containerText}
+        >
           <h3 className={styles.h2}>
             <span className={styles.active}>Lorem Ipsum </span>is simply dummy
             text of the printing.
@@ -45,7 +70,7 @@ export const Information = () => {
             projects. We build and develop mobile applications for several top
             platforms, including Android & IOS.{" "}
           </p>
-        </div>
+        </motion.div>
       </div>
     </section>
   );

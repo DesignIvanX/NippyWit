@@ -2,7 +2,7 @@
 }
 .h2 {
   text-align: center;
-  color: var(--colorBlack);
+  color: var(--colorSecondary);
   font-size: 1.8rem;
 }
 .clientsContent {

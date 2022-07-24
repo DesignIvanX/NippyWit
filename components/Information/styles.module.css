@@ -11,7 +11,7 @@
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap-reverse;
-  gap: 2rem;
+  column-gap: 15rem;
 }
 .containerImage {
   object-fit: cover;
@@ -26,6 +26,7 @@
 .p {
   font-size: 0.9rem;
   color: #545454;
+  text-align: center;
 }
 .active {
   color: var(--colorPrimary);

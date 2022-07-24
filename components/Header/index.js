@@ -14,8 +14,7 @@ export const Header = () => {
               strings={[
                 "tu e-commerce",
                 "línea",
-                "tu emprendimiento",
-                "tus redes sociales",
+                "redes sociales",
                 "tu empresa",
               ]}
               typeSpeed={50}

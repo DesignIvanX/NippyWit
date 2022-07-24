@@ -22,7 +22,9 @@ export const Services = () => {
         </div>
         <div className={styles.text}>
           <h3 className={styles.h3}>SEO</h3>
-          <p className={styles.p}>Lorem ipsum dolor.</p>
+          <p className={styles.p}>
+            Posicionate en internet para estar en las primeras listas de Google
+          </p>
         </div>
       </motion.div>
       <motion.div
@@ -43,7 +45,10 @@ export const Services = () => {
         </div>
         <div className={styles.text}>
           <h3 className={styles.h3}>Redes sociales</h3>
-          <p className={styles.p}>Lorem ipsum dolor.</p>
+          <p className={styles.p}>
+            Vender más con las piezas de diseño e interacción en las redes
+            sociales
+          </p>
         </div>
       </motion.div>
       <motion.div
@@ -64,7 +69,9 @@ export const Services = () => {
         </div>
         <div className={styles.text}>
           <h3 className={styles.h3}>E-commerce</h3>
-          <p className={styles.p}>Lorem ipsum dolor.</p>
+          <p className={styles.p}>
+            Una tienda en internet abierta 24/7 vendiendo por si misma
+          </p>
         </div>
       </motion.div>
       <motion.div
@@ -85,7 +92,7 @@ export const Services = () => {
         </div>
         <div className={styles.text}>
           <h3 className={styles.h3}>Diseno web</h3>
-          <p className={styles.p}>Lorem ipsum dolor.</p>
+          <p className={styles.p}>Mostrar la informacion de todo tu negocio</p>
         </div>
       </motion.div>
     </section>

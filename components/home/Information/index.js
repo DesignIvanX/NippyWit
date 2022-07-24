@@ -6,7 +6,7 @@ export const Information = () => {
     <section className={styles.information}>
       <div className={styles.box}>
         <motion.div
-          initial={{ x: 100, opacity: 0 }}
+          initial={{ x: -100, opacity: 0 }}
           transition={{ duration: 1 }}
           viewport={{ once: true }}
           whileInView={{ x: 0, opacity: 1 }}
@@ -40,20 +40,6 @@ export const Information = () => {
       </div>
       <div className={styles.box}>
         <motion.div
-          initial={{ x: -100, opacity: 0 }}
-          transition={{ duration: 1 }}
-          viewport={{ once: true }}
-          whileInView={{ x: 0, opacity: 1 }}
-          className={styles.containerImage}
-        >
-          <Image
-            src="/static/Information/social.png"
-            alt=""
-            width={300}
-            height={300}
-          />
-        </motion.div>
-        <motion.div
           initial={{ opacity: 0 }}
           transition={{ duration: 1 }}
           viewport={{ once: true }}
@@ -70,6 +56,21 @@ export const Information = () => {
             projects. We build and develop mobile applications for several top
             platforms, including Android & IOS.{" "}
           </p>
+        </motion.div>
+
+        <motion.div
+          initial={{ x: 100, opacity: 0 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+          whileInView={{ x: 0, opacity: 1 }}
+          className={styles.containerImage}
+        >
+          <Image
+            src="/static/Information/social.png"
+            alt=""
+            width={300}
+            height={300}
+          />
         </motion.div>
       </div>
     </section>

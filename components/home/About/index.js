@@ -29,11 +29,12 @@ export const About = () => {
         className={styles.text}
       >
         <h2 className={styles.h2}>
-          Lorem Ipsum is simply dummy text of the printing.
+          NOSOTROS GANAMOS CUANDO NUESTROS CLIENTES GANAN
         </h2>
         <p className={styles.p}>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry.
+          NippyWit es una Agencia De Marketing que ayuda actualmente a las PYMES
+          con su presencia digital, escalabilidad de ventas a través de paginas
+          web, redes sociales, e-commerce entre otros métodos.
         </p>
         <Button type="fill">Portafolio</Button>
       </motion.div>

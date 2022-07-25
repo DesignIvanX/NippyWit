@@ -27,14 +27,12 @@ export const Information = () => {
           className={styles.containerText}
         >
           <h3 className={styles.h2}>
-            <span className={styles.active}>Lorem Ipsum </span>is simply dummy
-            text of the printing.
+            DISEÑO WEB <span className={styles.active}>A TU MEDIDA </span>
           </h3>
           <p className={styles.p}>
-            KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
-            applications and website builders measuring dozens of completed
-            projects. We build and develop mobile applications for several top
-            platforms, including Android & IOS.
+            Tu pagina web es la primera impresión de tu negocio, en estos
+            momentos el mundo se rige por la internet si no tienes un sitio web
+            estas dejando mucho dinero sobre la mesa.
           </p>
         </motion.div>
       </div>
@@ -47,14 +45,12 @@ export const Information = () => {
           className={styles.containerText}
         >
           <h3 className={styles.h2}>
-            <span className={styles.active}>Lorem Ipsum </span>is simply dummy
-            text of the printing.
+            <span className={styles.active}>LAS REDES </span>SOCIALES
           </h3>
           <p className={styles.p}>
-            KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
-            applications and website builders measuring dozens of completed
-            projects. We build and develop mobile applications for several top
-            platforms, including Android & IOS.{" "}
+            Las redes sociales es la parte de tu negocio mas importante. ¿Quien
+            no usa redes sociales? es mas sencillo vender y crear una comunidad
+            para tu negocio.
           </p>
         </motion.div>
 

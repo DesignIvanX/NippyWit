@@ -28,8 +28,12 @@ export const Header = () => {
             clientes a su nuevo exito en linea.
           </p>
           <div className={styles.div}>
-            <Button type="fill">Get Started</Button>
-            <Button type="UnFilled">Get Started</Button>
+            <Button type="fill" path="contact">
+              Contacto
+            </Button>
+            <Button type="UnFilled" path="services">
+              Servicios
+            </Button>
           </div>
         </section>
         <section className={styles.section}>

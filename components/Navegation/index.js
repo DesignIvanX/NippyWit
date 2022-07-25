@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Button } from "../Button";
 import styles from "./styles.module.css";
 
@@ -30,11 +31,25 @@ export const Navegation = () => {
         <div className="line3"></div>
       </ul>
       <ul className={styles.ul} id="nav-ul">
-        <li className={`${styles.li} ${styles.active}`}>Inicio</li>
-        <li className={styles.li}>Nosotros</li>
-        <li className={styles.li}>Servicios</li>
+        <li className={`${styles.li} ${styles.active}`}>
+          <Link href="/">
+            <a>Inicio</a>
+          </Link>
+        </li>
+        <li className={styles.li}>
+          <Link href="/about">
+            <a>Nosotros</a>
+          </Link>
+        </li>
+        <li className={styles.li}>
+          <Link href="/services">
+            <a>Servicios</a>
+          </Link>
+        </li>
         <li className={styles.li}>Blog</li>
-        <Button type="fill">Contacto</Button>
+        <Button type="fill" path="/contact">
+          Contacto
+        </Button>
       </ul>
     </nav>
   );

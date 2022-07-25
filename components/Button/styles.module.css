@@ -5,9 +5,9 @@
   background-color: var(--colorPrimary);
   color: var(--colorLight);
   border: 2px solid var(--colorPrimary);
-  outline: none;
   cursor: pointer;
   transition: 500ms all;
+  text-align: center;
 }
 .buttonFill:hover {
   background-color: var(--colorLight);
@@ -20,9 +20,9 @@
   background-color: var(--colorLight);
   color: var(--colorPrimary);
   border: 2px solid var(--colorPrimary);
-  outline: none;
   cursor: pointer;
   transition: 500ms all;
+  text-align: center;
 }
 .buttonUnfilled:hover {
   background-color: var(--colorPrimary);

@@ -36,7 +36,9 @@ export const About = () => {
           con su presencia digital, escalabilidad de ventas a través de paginas
           web, redes sociales, e-commerce entre otros métodos.
         </p>
-        <Button type="fill">Portafolio</Button>
+        <Button type="fill" path="portafolio">
+          Portafolio
+        </Button>
       </motion.div>
     </section>
   );

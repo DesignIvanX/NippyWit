@@ -1,0 +1,26 @@
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 50px 0;
+}
+.image {
+  max-width: 500px;
+  object-fit: cover;
+}
+.text {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.h2 {
+  font-size: 1.8rem;
+}
+.p {
+  color: #5c5c5c;
+}
+.active {
+  color: var(--colorPrimary);
+}

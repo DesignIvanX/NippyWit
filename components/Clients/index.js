@@ -4,9 +4,15 @@ import styles from "./styles.module.css";
 export const Clients = () => {
   return (
     <section className={styles.clients}>
-      <div className={styles.title}>
+      <motion.div
+        initial={{ x: 100, opacity: 0 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
+        whileInView={{ x: 0, opacity: 1 }}
+        className={styles.title}
+      >
         <h2 className={styles.h2}>NUESTROS CLIENTES</h2>
-      </div>
+      </motion.div>
       <motion.div
         initial={{ opacity: 0 }}
         transition={{ duration: 1 }}

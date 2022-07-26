@@ -36,17 +36,16 @@ export const Navegation = () => {
             <a>Inicio</a>
           </Link>
         </li>
-        {/* <li className={styles.li}>
+        <li className={styles.li}>
           <Link href="/about">
             <a>Nosotros</a>
           </Link>
-        </li> */}
+        </li>
         <li className={styles.li}>
           <Link href="/services">
             <a>Servicios</a>
           </Link>
         </li>
-        <li className={styles.li}>Blog</li>
         <Button type="fill" path="/contact">
           Contacto
         </Button>

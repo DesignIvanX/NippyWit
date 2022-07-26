@@ -38,6 +38,20 @@ export const Information = () => {
       </div>
       <div className={styles.box}>
         <motion.div
+          initial={{ x: 100, opacity: 0 }}
+          transition={{ duration: 1 }}
+          viewport={{ once: true }}
+          whileInView={{ x: 0, opacity: 1 }}
+          className={styles.containerImage}
+        >
+          <Image
+            src="/static/Information/social.png"
+            alt=""
+            width={300}
+            height={300}
+          />
+        </motion.div>
+        <motion.div
           initial={{ opacity: 0 }}
           transition={{ duration: 1 }}
           viewport={{ once: true }}
@@ -52,21 +66,6 @@ export const Information = () => {
             no usa redes sociales? es mas sencillo vender y crear una comunidad
             para tu negocio.
           </p>
-        </motion.div>
-
-        <motion.div
-          initial={{ x: 100, opacity: 0 }}
-          transition={{ duration: 1 }}
-          viewport={{ once: true }}
-          whileInView={{ x: 0, opacity: 1 }}
-          className={styles.containerImage}
-        >
-          <Image
-            src="/static/Information/social.png"
-            alt=""
-            width={300}
-            height={300}
-          />
         </motion.div>
       </div>
     </section>

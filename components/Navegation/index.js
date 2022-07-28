@@ -15,7 +15,7 @@ export const Navegation = () => {
       <ul className={styles.ulImage}>
         <Image
           className={styles.image}
-          src="/static/logo.png"
+          src="/logo.svg"
           alt="Nippy Wit Logo"
           width={55}
           height={40}

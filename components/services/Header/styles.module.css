@@ -46,9 +46,10 @@
 }
 .image {
   object-fit: cover;
+  width: 100%;
 }
 .text {
-  max-width: 300px;
+  width: 90%;
 }
 .h3 {
   font-size: 1.2rem;

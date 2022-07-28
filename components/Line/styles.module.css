@@ -5,6 +5,10 @@
   right: 0;
   height: 5px;
   transform-origin: 0%;
-  background: var(--colorPrimary);
+  background: linear-gradient(
+    to bottom right,
+    rgba(63, 81, 181, 1) 0%,
+    rgba(171, 71, 188, 1) 70%
+  );
   z-index: 100000;
 }

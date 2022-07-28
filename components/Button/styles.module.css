@@ -1,10 +1,15 @@
 .buttonFill {
   font-size: 1rem;
-  padding: 10px 25px;
+  padding: 10px 50px;
   border-radius: 8px;
-  background-color: var(--colorPrimary);
+  /* background-color: var(--colorPrimary); */
+  background: linear-gradient(
+    to bottom right,
+    rgba(63, 81, 181, 1) 0%,
+    rgba(171, 71, 188, 1) 70%
+  );
   color: var(--colorLight);
-  border: 2px solid var(--colorPrimary);
+  /* border: 2px solid var(--colorPrimary); */
   cursor: pointer;
   transition: 500ms all;
   text-align: center;

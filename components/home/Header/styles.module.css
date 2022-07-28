@@ -1,8 +1,8 @@
 .headerContent {
   position: relative;
-  /* background: rgba(16, 144, 203, 0.1); */
   background-color: #000000;
   padding: 50px 0 50px 0;
+  padding: 100px 0 0 0;
 }
 .header {
   position: relative;

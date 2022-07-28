@@ -12,8 +12,6 @@
   backdrop-filter: blur(5px);
   background-color: #000000aa;
   z-index: 10000;
-  max-width: 1180px;
-  margin: 0 auto;
 }
 .ulImage {
   padding: 0;

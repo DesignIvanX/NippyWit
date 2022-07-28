@@ -57,7 +57,7 @@ p {
   height: 4px;
   width: 25px;
   margin: 6px;
-  background-color: var(--colorSecondary);
+  background-color: var(--colorLight);
   transition: 500ms all;
 }
 

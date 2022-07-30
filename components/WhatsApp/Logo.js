@@ -1,3 +1,4 @@
+import Image from "next/image";
 export const Logo = () => {
-  return <img src="/static/logo.png" alt="nippy wit" />;
+  return <Image src="/static/logo.svg" alt="nippy wit" />;
 };

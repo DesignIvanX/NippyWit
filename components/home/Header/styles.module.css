@@ -25,15 +25,16 @@
   line-height: 1.1;
   margin: 0;
   text-transform: uppercase;
-  background: linear-gradient(
-    to bottom right,
-    rgba(63, 81, 181, 1) 0%,
-    rgba(171, 71, 188, 1) 70%
+  color: var(--colorLight);
+  /* background: linear-gradient(
+    90deg,
+    rgba(112, 183, 233, 1) 35%,
+    rgba(150, 126, 237, 1) 100%
   );
-  text-shadow: 0 0 1px #03e9f4, 0 0 3px #03e9f4, 0 0 5px #03e9f4,
-    0 0 200px #03e9f4;
+  text-shadow: 0 0 1px #70b7e9aa, 0 0 3px #70b7e9, 0 0 5px #967eedaa,
+    0 0 200px #967eed;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 .p {
   font-size: 1.1rem;

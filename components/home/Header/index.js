@@ -31,6 +31,9 @@ export const Header = () => {
             <Button type="fill" path="contact">
               Contacto
             </Button>
+            <Button type="unFiled" path="contact">
+              Servicios
+            </Button>
           </div>
         </section>
         <section className={styles.section}>

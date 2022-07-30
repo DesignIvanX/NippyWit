@@ -14,6 +14,7 @@ export const WhatsApp = () => {
         replyTimeText="Agencia de Marketing Digital"
         inputPlaceHolder="Escribenos un mensage"
         sendButtonText="Enviar"
+        open="true"
       />
       ;
     </div>

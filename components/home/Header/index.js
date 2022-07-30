@@ -23,10 +23,9 @@ export const Header = () => {
             />
           </h1>
           <p className={styles.p}>
-            {/* Brindar soluciones empresariales que promuevan a las PYMES a
+            Brindar soluciones empresariales que promuevan a las PYMES a
             ingresar al mundo en línea incrementando la capacidad de nuestros
-            clientes a su nuevo exito en linea. */}
-            Worlds largest online metaerse conference
+            clientes a su nuevo exito en linea.
           </p>
           <div className={styles.div}>
             <Button type="fill" path="contact">

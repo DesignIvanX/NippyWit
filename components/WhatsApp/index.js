@@ -10,17 +10,12 @@ export const WhatsApp = () => {
         CompanyIcon={Logo}
         phoneNumber="+595961154054"
         companyName="Nippy Wit"
-        message="Hola! 👋🏼
-				Queremos hacer tu negocio."
+        message="Hello! 👋🏼 Queremos crecer tu negocio!"
         replyTimeText="Agencia de Marketing Digital"
+        inputPlaceHolder="Escribenos un mensage"
+        sendButtonText="Enviar"
       />
       ;
     </div>
   );
 };
-
-// companyName	string	'Support'	Your company name
-// replyTimeText	string	'Typically replies within a day'
-// message	string	'Hello! 👋🏼 \n\nWhat can we do for you?'	With \n you can create a break-line.
-// sendButton	string	'Send'	Text inside the send button
-// open	boolean	false	If true the chatbox will be open as default

@@ -10,7 +10,7 @@
   padding: 10px;
   font-family: var(--fontSecondary);
   backdrop-filter: blur(5px);
-  background-color: #000000aa;
+  background-color: #0f0f0faa;
   z-index: 10000;
 }
 .ulImage {
@@ -56,7 +56,7 @@
     top: 96px;
     right: 0;
     padding: 50px 70px;
-    background-color: #000000;
+    background-color: #0f0f0f;
     display: flex;
     align-items: center;
     flex-direction: column;

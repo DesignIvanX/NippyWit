@@ -57,7 +57,7 @@ p {
   height: 4px;
   width: 25px;
   margin: 6px;
-  background-color: var(--colorLight);
+  background-color: #000000;
   transition: 500ms all;
 }
 

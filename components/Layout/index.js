@@ -9,7 +9,7 @@ export const Layout = ({ children }) => {
       <Line />
       <Navegation />
       {children}
-      <WhatsApp />
+      <WhatsApp number="+595961154054" />
       <Footer />
     </main>
   );

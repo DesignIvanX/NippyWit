@@ -41,8 +41,8 @@ export const Header = () => {
             className={styles.image}
             src="/static/header/header.png"
             alt=""
-            width={450}
-            height={440}
+            width={500}
+            height={400}
           />
         </section>
       </div>

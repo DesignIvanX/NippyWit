@@ -1,7 +1,7 @@
 .buttonFill {
   font-size: 1rem;
   padding: 10px 35px;
-  border-radius: 8px;
+  border-radius: 20px;
   background-color: var(--colorPrimary);
   color: var(--colorLight);
   border: 2px solid var(--colorPrimary);
@@ -16,7 +16,7 @@
 .buttonUnfilled {
   font-size: 1rem;
   padding: 10px 35px;
-  border-radius: 8px;
+  border-radius: 20px;
   background-color: var(--colorLight);
   color: var(--colorPrimary);
   border: 2px solid var(--colorPrimary);

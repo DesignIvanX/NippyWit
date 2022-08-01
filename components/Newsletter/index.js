@@ -20,7 +20,7 @@ export const Newsletter = () => {
           required
         />
 
-        <Button type="fill">Subscribe</Button>
+        <Button type="fill">Suscribete</Button>
       </form>
     </motion.section>
   );

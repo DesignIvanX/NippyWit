@@ -63,7 +63,8 @@
     flex-direction: column;
     transform: translateX(100%);
     transition: 1s all ease-in-out;
-    height: 87vh;
+    height: 90vh;
+    width: 100%;
   }
   .hamburger {
     display: block;

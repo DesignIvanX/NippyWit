@@ -8,11 +8,10 @@ export const WhatsApp = ({ number }) => {
       CompanyIcon={Logo}
       phoneNumber={number}
       companyName="Nippy Wit"
-      message="Hello! 👋🏼 Queremos crecer tu negocio!"
+      message="Hola! 👋🏼 Queremos crecer tu negocio!"
       replyTimeText="Agencia de Marketing Digital"
       inputPlaceHolder="Escribenos un mensage"
       sendButtonText="Enviar"
-      open="true"
     />
   );
 };

@@ -4,6 +4,7 @@ import { Services } from "../components/home/Services";
 import { About } from "../components/home/About";
 import { Newsletter } from "../components/Newsletter";
 import { Information } from "../components/home/Information";
+import { Started } from "../components/Started";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <About />
       <Information />
       <Clients />
+      <Started />
       <Newsletter />
     </>
   );

@@ -17,8 +17,8 @@ export const Header = () => {
                 "redes sociales",
                 "tu empresa",
               ]}
-              typeSpeed={50}
-              backSpeed={50}
+              typeSpeed={70}
+              backSpeed={60}
               loop
             />
           </h1>

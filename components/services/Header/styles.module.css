@@ -55,6 +55,10 @@
   font-size: 1.2rem;
   color: var(--colorLight);
 }
+.pText {
+  color: #000000;
+  margin: 50px;
+}
 .p {
   font-size: 0.9rem;
   color: #f4f4f4;

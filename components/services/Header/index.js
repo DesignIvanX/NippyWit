@@ -14,7 +14,7 @@ export const Header = () => {
         <h2 className={styles.h2}>
           NUESTROS <span className={styles.active}>SERVICIOS</span>
         </h2>
-        <p className={styles.p}>
+        <p className={styles.pText}>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry.
         </p>

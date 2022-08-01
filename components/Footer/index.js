@@ -20,28 +20,30 @@ export const Footer = () => {
             height={70}
           />
           <p className={styles.oneP}>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+            Mejores soluciones para hacer su éxito en línea.
           </p>
-          <p className={styles.oneP}>@Lorem</p>
+          <p className={styles.oneP}>hola@nippywit.com</p>
         </div>
         <div className={styles.containerTwo}>
-          <h3 className={styles.threeH3}>About us</h3>
-          <p className={styles.threeP}>Lorem</p>
-          <p className={styles.threeP}>Portfolio</p>
-          <p className={styles.threeP}>Careers</p>
-          <p className={styles.threeP}>Contact us</p>
+          <h3 className={styles.threeH3}>Nosotros</h3>
+          <p className={styles.threeP}>Portafolio</p>
+          <p className={styles.threeP}>Servicios</p>
+          <p className={styles.threeP}>Contacto</p>
         </div>
         <div className={styles.contact}>
-          <h3 className={styles.contactH3}>Contact us</h3>
+          <h3 className={styles.contactH3}>Contacto</h3>
           <p className={styles.contactP}>
-            Lorem ipsum dolor. Lorem Ipsum is simply dummy text of the printing
-            and typesetting industry.
+            Soluciones de negocios que impulsen a las PYMES en su incursión al
+            mundo del Internet con un servicio de alta calidad.
           </p>
-          <p className={styles.contactP}>+908 89097 890</p>
+          <p className={styles.contactP}>
+            hola@nippywit.com
+            <br />
+            +908 89097 890
+          </p>
         </div>
         <div>
-          <a href="">
+          <a href="https://www.instagram.com/nippywit/">
             <Image
               src="/static/social/instagram.png"
               alt="instagram"

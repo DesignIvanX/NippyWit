@@ -6,7 +6,7 @@
   justify-content: center;
   gap: 0.5rem;
   flex-wrap: wrap;
-  padding: 30px 10px;
+  padding: 0 10px 30px 10px;
 }
 .box {
   max-width: 465px;

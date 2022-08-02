@@ -1,10 +1,17 @@
 import Image from "next/image";
 import styles from "./styles.module.css";
+import { motion } from "framer-motion";
 import { Button } from "../Button";
 
 export const Started = () => {
   return (
-    <section className={styles.started}>
+    <motion.section
+      initial={{ y: 100, opacity: 0 }}
+      transition={{ duration: 1 }}
+      viewport={{ once: true }}
+      whileInView={{ y: 0, opacity: 1 }}
+      className={styles.started}
+    >
       <div className={styles.containerText}>
         <p className={styles.pTop}>
           <span className={styles.active}>En que te podemos ayudar</span>
@@ -24,6 +31,6 @@ export const Started = () => {
       <div>
         <Image src="/static/man3d.jpg" alt="" width={300} height={280} />
       </div>
-    </section>
+    </motion.section>
   );
 };

@@ -29,7 +29,7 @@ export const About = () => {
         className={styles.text}
       >
         <h2 className={styles.h2}>
-          Nosotros Ganamos Cuando{" "}
+          Nosotros Ganamos Cuando
           <span className={styles.active}> Nuestros Clientes </span>
           Ganan
         </h2>

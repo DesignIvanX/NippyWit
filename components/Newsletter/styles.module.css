@@ -1,10 +1,9 @@
 .newsletter {
-  padding: 50px;
+  padding: 50px 10px;
   text-align: center;
 }
 .h2 {
   font-size: 1.8rem;
-  color: var(--colorLight);
   margin: 50px 0;
 }
 .form {

@@ -22,13 +22,24 @@ export const Footer = () => {
           <p className={styles.oneP}>
             Mejores soluciones para hacer su éxito en línea.
           </p>
-          <p className={styles.oneP}>hola@nippywit.com</p>
+          <p className={styles.oneP}>
+            <a href="mailto:hola@nippywit.com">hola@nippywit.com</a>
+          </p>
         </div>
         <div className={styles.containerTwo}>
-          <h3 className={styles.threeH3}>Nosotros</h3>
-          <p className={styles.threeP}>Portafolio</p>
-          <p className={styles.threeP}>Servicios</p>
-          <p className={styles.threeP}>Contacto</p>
+          <h3 className={styles.threeH3}>Empresa</h3>
+          <p className={styles.threeP}>
+            <a href="">Portafolio</a>
+          </p>
+          <p className={styles.threeP}>
+            <a href="">Nosotros</a>
+          </p>
+          <p className={styles.threeP}>
+            <a href="">Servicios</a>
+          </p>
+          <p className={styles.threeP}>
+            <a href="">Contacto</a>
+          </p>
         </div>
         <div className={styles.contact}>
           <h3 className={styles.contactH3}>Contacto</h3>
@@ -37,9 +48,9 @@ export const Footer = () => {
             mundo del Internet con un servicio de alta calidad.
           </p>
           <p className={styles.contactP}>
-            hola@nippywit.com
+            <a href="mailto:hola@nippywit.com">hola@nippywit.com</a>
             <br />
-            +908 89097 890
+            <a href="tel:+595981154054">+595981154054</a>
           </p>
         </div>
         <div>

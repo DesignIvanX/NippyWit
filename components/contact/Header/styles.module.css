@@ -1,0 +1,50 @@
+.header {
+  margin-top: 100px;
+  padding: 10px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0rem 18rem;
+}
+.text {
+  width: 300px;
+}
+.image {
+  object-fit: cover;
+  background-color: var(--colorPrimary);
+  border-radius: 999px;
+}
+.h1 {
+  font-size: 2rem;
+}
+.p {
+  font-size: 0.9rem;
+  color: #777777;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  text-align: center;
+}
+.social {
+  margin: 50px 0;
+}
+.socialh3 {
+  font-size: 1.2rem;
+  padding: 0 0 0 20px;
+}
+.number {
+  display: flex;
+  gap: 1rem;
+}
+.a {
+  color: #777777;
+  font-size: 0.9rem;
+  margin: 10px 0;
+}

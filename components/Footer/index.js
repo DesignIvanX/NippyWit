@@ -15,7 +15,7 @@ export const Footer = () => {
           <Image
             className={styles.oneImage}
             src="/static/logo.png"
-            alt=""
+            alt="NIppy Wit"
             width={100}
             height={70}
           />
@@ -45,7 +45,7 @@ export const Footer = () => {
           <h3 className={styles.contactH3}>Contacto</h3>
           <p className={styles.contactP}>
             Soluciones de negocios que impulsen a las PYMES en su incursión al
-            mundo del Internet con un servicio de alta calidad.
+            mundo del Internet.
           </p>
           <p className={styles.contactP}>
             <a href="mailto:hola@nippywit.com">hola@nippywit.com</a>

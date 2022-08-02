@@ -13,7 +13,10 @@ export const Newsletter = () => {
       className={styles.newsletter}
     >
       <div>
-        <h2 className={styles.h2}>ESTAS INTERESADO EN NUESTROS SERVICIOS</h2>
+        <h2 className={styles.h2}>
+          ESTAS <span className={styles.active}>INTERESADO EN NUESTROS </span>
+          SERVICIOS
+        </h2>
         <form className={styles.form}>
           <input
             className={styles.input}
@@ -21,7 +24,9 @@ export const Newsletter = () => {
             placeholder="Ingresa tu correo electronico"
             required
           />
-          <Button type="fill">Suscribete</Button>
+          <div className={styles.btn}>
+            <Button type="fill">Suscribete</Button>
+          </div>
         </form>
       </div>
     </motion.section>

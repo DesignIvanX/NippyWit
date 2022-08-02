@@ -24,15 +24,6 @@ export const Newsletter = () => {
           <Button type="fill">Suscribete</Button>
         </form>
       </div>
-      <div>
-        <Image
-          className={styles.image}
-          src="/man.png"
-          alt=""
-          width={200}
-          height={300}
-        />
-      </div>
     </motion.section>
   );
 };

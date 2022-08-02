@@ -29,7 +29,9 @@ export const About = () => {
         className={styles.text}
       >
         <h2 className={styles.h2}>
-          NOSOTROS GANAMOS CUANDO NUESTROS CLIENTES GANAN
+          Nosotros Ganamos Cuando{" "}
+          <span className={styles.active}> Nuestros Clientes </span>
+          Ganan
         </h2>
         <p className={styles.p}>
           NippyWit es una Agencia De Marketing que ayuda actualmente a las PYMES

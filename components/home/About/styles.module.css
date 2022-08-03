@@ -4,11 +4,11 @@
   margin: 50px auto 20px auto;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap-reverse;
+  flex-direction: column;
   gap: 1rem;
 }
 .h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bold;
   line-height: 1.1;
 }
@@ -20,16 +20,14 @@
 }
 .videoContainer {
   width: 100%;
-  max-width: 400px;
 }
 .video {
   margin-bottom: 15px;
-  height: 200px;
+  height: 500px;
   width: 100%;
   border-radius: 8px;
 }
 .text {
-  max-width: 500px;
 }
 .active {
   color: var(--colorPrimary);

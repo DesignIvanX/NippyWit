@@ -4,7 +4,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 2.5rem;
+
   flex-wrap: wrap;
   padding: 0 10px 30px 10px;
 }

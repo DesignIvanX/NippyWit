@@ -1,7 +1,3 @@
-import React from "react";
-
-const index = () => {
-  return <div>index</div>;
+export const Plants = () => {
+  return <section>index</section>;
 };
-
-export default index;

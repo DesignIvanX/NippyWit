@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "./styles.module.css";
+import Link from "next/link";
 export const Footer = () => {
   return (
     <motion.footer
@@ -29,16 +30,24 @@ export const Footer = () => {
         <div className={styles.containerTwo}>
           <h3 className={styles.threeH3}>Empresa</h3>
           <p className={styles.threeP}>
-            <a href="/">Inicio</a>
+            <Link href="/">
+              <a>Inicio</a>
+            </Link>
           </p>
           <p className={styles.threeP}>
-            <a href="/about">Nosotros</a>
+            <Link href="/about">
+              <a>Nosotros</a>
+            </Link>
           </p>
           <p className={styles.threeP}>
-            <a href="/services">Servicios</a>
+            <Link href="/services">
+              <a>Servicios</a>
+            </Link>
           </p>
           <p className={styles.threeP}>
-            <a href="/contact">Contacto</a>
+            <Link href="/contact">
+              <a>Contacto</a>
+            </Link>
           </p>
         </div>
         <div className={styles.contact}>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Button } from "../Button";
 import styles from "./styles.module.css";
 
@@ -31,15 +32,21 @@ export const Navegation = () => {
       </ul>
       <ul className={styles.ul} id="nav-ul">
         <li className={`${styles.li} ${styles.active}`}>
-          <a href="/">Inicio</a>
+          <Link href="/">
+            <a onClick={() => handleOnCLick()}>Inicio</a>
+          </Link>
         </li>
         <li className={styles.li}>
-          <a href="/about">Nosotros</a>
+          <Link href="/about">
+            <a onClick={() => handleOnCLick()}>Nosotros</a>
+          </Link>
         </li>
         <li className={styles.li}>
-          <a href="/services">Servicios</a>
+          <Link href="/services">
+            <a onClick={() => handleOnCLick()}>Servicios</a>
+          </Link>
         </li>
-        <Button type="fill" path="/contact">
+        <Button type="fill" path="/contact" onClick={() => handleOnCLick()}>
           Contacto
         </Button>
       </ul>

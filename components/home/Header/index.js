@@ -31,7 +31,7 @@ export const Header = () => {
             <Button type="fill" path="contact">
               Contacto
             </Button>
-            <Button type="unFiled" path="contact">
+            <Button type="unFiled" path="services">
               Servicios
             </Button>
           </div>

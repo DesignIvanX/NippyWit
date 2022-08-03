@@ -17,16 +17,20 @@ export const Started = () => {
           <span className={styles.active}>En que te podemos ayudar</span>
         </p>
         <h2 className={styles.h2}>
-          We Help to Create your{" "}
-          <span className={styles.active}> Bussiness</span> Change
+          Ayudamos a Crear el
+          <span className={styles.active}> Cambio</span> de tu Negocio
         </h2>
         <p className={styles.p}>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione
-          doloremque recusandae ullam magnam aperiam quae. Fugit ullam, dolorem
-          cupiditate quidem molestiae ut eveniet tenetur eius reprehenderit non
-          commodi fugiat debitis?
+          En NippyWit entendemos que el éxito de nuestros clientes es nuestro
+          éxito. Nos apasiona ayudar a negocios a través de Internet haciendo
+          todo lo posible para que tu negocio sea exitoso.
         </p>
-        <Button type="fill">Comencemos</Button>
+        <Button
+          type="fill"
+          path="https://api.whatsapp.com/send/?phone=%2B595961154054&text&type=phone_number&app_absent=0"
+        >
+          Comencemos
+        </Button>
       </div>
       <div>
         <Image src="/static/man3d.jpg" alt="" width={300} height={280} />

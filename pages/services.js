@@ -6,6 +6,7 @@ export default function Services() {
   return (
     <>
       <Header />
+      <Services />
       <Information />
       <Newsletter />
     </>

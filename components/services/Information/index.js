@@ -19,7 +19,9 @@ export const Information = () => {
           KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
           applications and website builders measuring dozens
         </p>
-        <Button type="unfilled">Contactanos</Button>
+        <Button type="unfilled" path="tel:+595992233418">
+          Contactanos
+        </Button>
       </div>
       <div>
         <Image

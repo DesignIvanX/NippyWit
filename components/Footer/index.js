@@ -29,16 +29,16 @@ export const Footer = () => {
         <div className={styles.containerTwo}>
           <h3 className={styles.threeH3}>Empresa</h3>
           <p className={styles.threeP}>
-            <a href="">Portafolio</a>
+            <a href="/">Inicio</a>
           </p>
           <p className={styles.threeP}>
-            <a href="">Nosotros</a>
+            <a href="/about">Nosotros</a>
           </p>
           <p className={styles.threeP}>
-            <a href="">Servicios</a>
+            <a href="/services">Servicios</a>
           </p>
           <p className={styles.threeP}>
-            <a href="">Contacto</a>
+            <a href="/contact">Contacto</a>
           </p>
         </div>
         <div className={styles.contact}>
@@ -50,7 +50,7 @@ export const Footer = () => {
           <p className={styles.contactP}>
             <a href="mailto:hola@nippywit.com">hola@nippywit.com</a>
             <br />
-            <a href="tel:+595981154054">+595981154054</a>
+            <a href="tel:+595992233418">+595 992 233418</a>
           </p>
         </div>
         <div>

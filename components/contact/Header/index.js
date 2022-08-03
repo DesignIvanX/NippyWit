@@ -13,13 +13,11 @@ export const Header = () => {
             height={70}
             className={styles.image}
           />
-          <h1 className={styles.h1}>Lets Collaborate</h1>
-          <p className={styles.p}>
-            Lorem Ipsum is simply dummy text of the printing .
-          </p>
+          <h1 className={styles.h1}>Colaboremos</h1>
+          <p className={styles.p}>Haremos un cambio en tu empresa.</p>
           <div className={styles.number}>
-            <a className={styles.a} href="tel:+94 4444 5555 6">
-              +94 4444 5555 6
+            <a className={styles.a} href="tel:+595992233418">
+              <span className={styles.active}>+595 992 233418</span>
             </a>
           </div>
         </div>

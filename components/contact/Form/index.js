@@ -11,8 +11,8 @@ export const Form = () => {
       className={styles.form}
     >
       <div className={styles.top}>
-        <h2>Say hello</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+        <h2>Hola</h2>
+        <p>En que te podemos ayudar, comentanos que necesitas.</p>
       </div>
       <div className={styles.bottom}>
         <div className={styles.content}>

@@ -15,105 +15,10 @@ export const Header = () => {
           NUESTROS <span className={styles.active}>SERVICIOS</span>
         </h2>
         <p className={styles.pText}>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry.
+          Creamos soluciones digitales. <br />| Manejo de redes sociales |
+          Creacion de logos | Fotografia profesional | Paginas web | Estrategias
+          de Marketing |
         </p>
-      </div>
-      <div className={styles.services}>
-        <div
-          initial={{ opacity: 0 }}
-          transition={{ duration: 1 }}
-          viewport={{ once: true }}
-          whileInView={{ opacity: 1 }}
-          className={styles.box}
-        >
-          <div className={styles.containerImg}>
-            <Image
-              className={styles.image}
-              src="/static/services/seo.png"
-              alt=""
-              width={55}
-              height={55}
-            />
-          </div>
-          <div className={styles.text}>
-            <h3 className={styles.h3}>SEO</h3>
-            <p className={styles.p}>
-              Posicionate en internet para estar en las primeras listas de
-              Google
-            </p>
-          </div>
-        </div>
-        <div
-          initial={{ opacity: 0 }}
-          transition={{ duration: 1 }}
-          viewport={{ once: true }}
-          whileInView={{ opacity: 1 }}
-          className={styles.box}
-        >
-          <div className={styles.containerImg}>
-            <Image
-              className={styles.image}
-              src="/static/services/social.png"
-              alt=""
-              width={55}
-              height={55}
-            />
-          </div>
-          <div className={styles.text}>
-            <h3 className={styles.h3}>Redes sociales</h3>
-            <p className={styles.p}>
-              Vender más con las piezas de diseño e interacción en las redes
-              sociales
-            </p>
-          </div>
-        </div>
-        <div
-          initial={{ opacity: 0 }}
-          transition={{ duration: 1 }}
-          viewport={{ once: true }}
-          whileInView={{ opacity: 1 }}
-          className={styles.box}
-        >
-          <div className={styles.containerImg}>
-            <Image
-              className={styles.image}
-              src="/static/services/shop.png"
-              alt=""
-              width={55}
-              height={55}
-            />
-          </div>
-          <div className={styles.text}>
-            <h3 className={styles.h3}>E-commerce</h3>
-            <p className={styles.p}>
-              Una tienda en internet abierta 24/7 vendiendo por si misma
-            </p>
-          </div>
-        </div>
-        <div
-          initial={{ opacity: 0 }}
-          transition={{ duration: 1 }}
-          viewport={{ once: true }}
-          whileInView={{ opacity: 1 }}
-          className={styles.box}
-        >
-          <div className={styles.containerImg}>
-            <Image
-              className={styles.image}
-              src="/static/services/web.png"
-              alt=""
-              width={55}
-              height={55}
-            />
-          </div>
-          <div className={styles.text}>
-            <h3 className={styles.h3}>Diseno web</h3>
-            <p className={styles.p}>
-              Mostrar la informacion de todo tu negocio
-            </p>
-          </div>
-        </div>
       </div>
     </header>
   );

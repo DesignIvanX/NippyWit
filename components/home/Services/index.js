@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "./styles.module.css";
-export const Services = () => {
+export const ServicesContainer = () => {
   return (
     <section className={styles.services}>
       <motion.div

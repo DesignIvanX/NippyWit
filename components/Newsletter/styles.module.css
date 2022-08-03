@@ -25,6 +25,7 @@
   border: none;
   color: #787878;
   width: 100%;
+  border-radius: 8px;
   border: 1px solid #7878783a;
   transition: 1s border;
 }

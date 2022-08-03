@@ -25,7 +25,7 @@ export const Newsletter = () => {
             required
           />
           <div className={styles.btn}>
-            <Button type="fill">Suscribete</Button>
+            <Button type="small">Suscribete</Button>
           </div>
         </form>
       </div>

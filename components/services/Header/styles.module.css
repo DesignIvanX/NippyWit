@@ -27,39 +27,3 @@
 .active {
   color: var(--colorPrimary);
 }
-.services {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5rem;
-  flex-wrap: wrap;
-  background-color: var(--colorSecondary);
-  border-radius: 20px;
-  padding: 30px 10px;
-  margin: 0 10px;
-}
-.box {
-  display: flex;
-  gap: 1rem;
-  max-width: 400px;
-  min-width: 300px;
-}
-.image {
-  object-fit: cover;
-  width: 100%;
-}
-.text {
-  width: 90%;
-}
-.h3 {
-  font-size: 1.2rem;
-  color: var(--colorLight);
-}
-.pText {
-  color: #000000;
-  margin: 50px;
-}
-.p {
-  font-size: 0.9rem;
-  color: #f4f4f4;
-}

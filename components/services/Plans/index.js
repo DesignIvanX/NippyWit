@@ -1,9 +1,14 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
 import styles from "./styles.module.css";
 export const Plants = () => {
   return (
     <section className={styles.plants}>
-      <a
+      <motion.a
+        initial={{ x: 100, opacity: 0 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
+        whileInView={{ x: 0, opacity: 1 }}
         href="https://api.whatsapp.com/send/?phone=%2B595961154054&text&type=phone_number&app_absent=0"
         className={styles.box}
       >
@@ -18,8 +23,12 @@ export const Plants = () => {
         <p className={styles.p}>
           Portales funcionales pensados en la experiencia del cliente.
         </p>
-      </a>
-      <a
+      </motion.a>
+      <motion.a
+        initial={{ x: -100, opacity: 0 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
+        whileInView={{ x: 0, opacity: 1 }}
         href="https://api.whatsapp.com/send/?phone=%2B595961154054&text&type=phone_number&app_absent=0"
         className={styles.box}
       >
@@ -34,8 +43,12 @@ export const Plants = () => {
         <p className={styles.p}>
           Le damos visibilidad a tu marca mediante las redes sociales.
         </p>
-      </a>
-      <a
+      </motion.a>
+      <motion.a
+        initial={{ x: 100, opacity: 0 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
+        whileInView={{ x: 0, opacity: 1 }}
         href="https://api.whatsapp.com/send/?phone=%2B595961154054&text&type=phone_number&app_absent=0"
         className={styles.box}
       >
@@ -50,8 +63,12 @@ export const Plants = () => {
         <p className={styles.p}>
           La mejor opccion es tener una tienda abierta 24/7
         </p>
-      </a>
-      <a
+      </motion.a>
+      <motion.a
+        initial={{ x: -100, opacity: 0 }}
+        transition={{ duration: 1 }}
+        viewport={{ once: true }}
+        whileInView={{ x: 0, opacity: 1 }}
         href="https://api.whatsapp.com/send/?phone=%2B595961154054&text&type=phone_number&app_absent=0"
         className={styles.box}
       >
@@ -66,7 +83,7 @@ export const Plants = () => {
         <p className={styles.p}>
           Le damos poder grafico a las marcas de nuestros aliados.
         </p>
-      </a>
+      </motion.a>
     </section>
   );
 };

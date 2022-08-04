@@ -20,7 +20,7 @@
 .ul {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   color: #000000;
   margin: 0;
   padding: 0;

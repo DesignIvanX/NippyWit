@@ -36,11 +36,11 @@ export const Navegation = () => {
             <a onClick={() => handleOnCLick()}>Inicio</a>
           </Link>
         </li>
-        <li className={styles.li}>
+        {/* <li className={styles.li}>
           <Link href="/about">
             <a onClick={() => handleOnCLick()}>Nosotros</a>
           </Link>
-        </li>
+        </li> */}
         <li className={styles.li}>
           <Link href="/services">
             <a onClick={() => handleOnCLick()}>Servicios</a>

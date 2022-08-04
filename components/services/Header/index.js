@@ -14,7 +14,7 @@ export const Header = () => {
         <h2 className={styles.h2}>
           NUESTROS <span className={styles.active}>SERVICIOS</span>
         </h2>
-        <p className={styles.pText}>
+        <p className={styles.p}>
           Creamos soluciones digitales. <br />| Manejo de redes sociales |
           Creacion de logos | Fotografia profesional | Paginas web | Estrategias
           de Marketing |

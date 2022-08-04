@@ -23,7 +23,7 @@
 }
 .video {
   margin-bottom: 15px;
-  height: 500px;
+  height: 350px;
   width: 100%;
   border-radius: 8px;
 }
@@ -31,4 +31,10 @@
 }
 .active {
   color: var(--colorPrimary);
+}
+
+@media screen and (max-width: 1000px) {
+  .video {
+    height: 250px;
+  }
 }

@@ -6,20 +6,23 @@ export const Information = () => {
     <section className={styles.content}>
       <div className={styles.text}>
         <h2 className={styles.h2}>
-          <span className={styles.active}>Lorem Ipsum</span> is simply dummy
-          text of the printing.
+          <span className={styles.active}>Nosotros te Ayudaremos</span> a Tener
+          la Presencia Digital.
         </h2>
         <p className={styles.p}>
-          KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
-          applications and website builders measuring dozens of completed
-          projects. We build and develop mobile applications for several top
-          platforms, including Android & IOS.
+          En NippyWit entendemos que el éxito de nuestros clientes es nuestro
+          éxito. Nos apasiona ayudar a negocios a través de Internet haciendo
+          todo lo posible para que tu negocio sea exitoso.
         </p>
         <p className={styles.p}>
-          KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
-          applications and website builders measuring dozens
+          Entendemos que para logar el exito no tenemos que dejar de mejorar.
+          Proponemos a todos nuestros clientes a que nos dejen ayudarlos a
+          mejorar cada día.
         </p>
-        <Button type="unfilled" path="tel:+595992233418">
+        <Button
+          type="unfilled"
+          path="https://api.whatsapp.com/send/?phone=%2B595961154054&text&type=phone_number&app_absent=0"
+        >
           Contactanos
         </Button>
       </div>

@@ -1,4 +1,3 @@
-import { Button } from "../../Button";
 import { motion } from "framer-motion";
 import styles from "./styles.module.css";
 export const About = () => {

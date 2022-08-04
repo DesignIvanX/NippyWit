@@ -1,0 +1,32 @@
+.plants {
+  max-width: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem 15rem;
+  margin: 0 auto;
+}
+.box {
+  width: 300px;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.204);
+  padding: 20px;
+  text-align: center;
+  color: #5c5c5c;
+  cursor: pointer;
+  transition: 1s all;
+}
+.image {
+  object-fit: cover;
+}
+.h3 {
+  font-size: 1.2rem;
+}
+.p {
+  font-size: 0.9rem;
+}
+
+.box:hover {
+  background-color: var(--colorPrimary);
+  color: #ffffff;
+}

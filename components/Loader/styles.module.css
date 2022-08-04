@@ -4,14 +4,14 @@
   left: 0;
   right: 0;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #ffffff;
   z-index: 1000000000;
 }
 .image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 300px auto;
+  object-fit: cover;
 }

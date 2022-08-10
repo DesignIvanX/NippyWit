@@ -1,0 +1,41 @@
+.newsletter {
+  padding: 50px 10px;
+  text-align: center;
+}
+.h2 {
+  font-size: 2rem;
+  margin: 50px 0;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 50px 0;
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.input {
+  background: #ffffff;
+  outline: none;
+  padding: 20px 10px;
+  font-size: 1rem;
+  border: none;
+  color: #787878;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #7878783a;
+  transition: 1s border;
+}
+.input:focus {
+  border: 1px solid #787878;
+}
+.btn {
+  position: absolute;
+  right: 10px;
+}
+.active {
+  color: var(--colorPrimary);
+}

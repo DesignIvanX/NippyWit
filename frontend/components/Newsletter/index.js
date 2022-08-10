@@ -1,7 +1,7 @@
 import { Button } from "../Button";
 import { motion } from "framer-motion";
 import styles from "./styles.module.css";
-import axios from "axios";
+// import axios from "axios";
 import useChangeForm from "../../hooks/useChangeForm";
 export const Newsletter = () => {
   const { handleOnChange, value } = useChangeForm();
@@ -10,21 +10,21 @@ export const Newsletter = () => {
   };
 
   const handleSubmit = async (e) => {
-    console.log(value.email[0]);
-    const newUser = { email: value.email[0] };
-    await axios
-      .post(
-        "https://nippywitbackend-production.up.railway.app/api/newsletter/",
-        newUser
-      )
-      .then((data) => {
-        const alert = document.querySelector("#alert");
-        alert.classList.add("displayBlock");
-        console.log("Enviado: " + data);
-      })
-      .catch((e) => {
-        console.error(new Error("Error: " + e));
-      });
+    // console.log(value.email[0]);
+    // const newUser = { email: value.email[0] };
+    // await axios
+    //   .post(
+    //     "https://nippywitbackend-production.up.railway.app/api/newsletter/",
+    //     newUser
+    //   )
+    //   .then((data) => {
+    //     const alert = document.querySelector("#alert");
+    //     alert.classList.add("displayBlock");
+    //     console.log("Enviado: " + data);
+    //   })
+    //   .catch((e) => {
+    //     console.error(new Error("Error: " + e));
+    //   });
   };
 
   return (

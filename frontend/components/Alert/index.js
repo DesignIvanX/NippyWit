@@ -6,7 +6,12 @@ export const Alert = () => {
   return (
     <section className={styles.alert} id="alert">
       <motion.div>
-        <Image src="/static/alert/hand.svg" alt="" width={200} height={190} />
+        <Image
+          src="/static/alert/hand.svg"
+          alt="mano 3d"
+          width={200}
+          height={190}
+        />
       </motion.div>
 
       <p className={styles.p}>Subscrito correctamente!</p>

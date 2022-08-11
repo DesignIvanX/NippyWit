@@ -9,6 +9,7 @@ export const Form = () => {
     handleOnChange(e);
   };
   const handleSubmit = async (e) => {
+    console.log(value);
     await axios
       .post(
         "https://nippywitbackend-production.up.railway.app/api/form/",

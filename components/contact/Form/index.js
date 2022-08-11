@@ -53,7 +53,7 @@ export const Form = () => {
             <input
               onChange={changeForm}
               className={styles.input}
-              type="text"
+              type="number"
               name="number"
               value={value.lastName}
               required

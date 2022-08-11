@@ -21,7 +21,7 @@ export const Alert = () => {
         />
       </motion.div>
 
-      <p className={styles.p}>Subscrito correctamente!</p>
+      <p className={styles.p}>Hecho correctamente!</p>
       <Button path="/services/" onClick={handleOnClick}>
         OK!
       </Button>

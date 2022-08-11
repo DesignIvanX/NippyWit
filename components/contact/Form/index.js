@@ -1,14 +1,28 @@
 import { Button } from "../../Button";
 import { motion } from "framer-motion";
+import axios from "axios";
 import styles from "./styles.module.css";
 import useChangeForm from "../../../hooks/useChangeForm";
 export const Form = () => {
   const { handleOnChange, value } = useChangeForm();
   const changeForm = (e) => {
     handleOnChange(e);
-    console.log(value);
   };
-  const handleOnClick = () => {};
+  const handleSubmit = async (e) => {
+    await axios
+      .post(
+        "https://nippywitbackend-production.up.railway.app/api/form/",
+        value
+      )
+      .then((data) => {
+        const alert = document.querySelector("#alert");
+        alert.classList.add("displayBlock");
+        console.log("Enviado: " + data);
+      })
+      .catch((e) => {
+        console.error(new Error("Error: " + e));
+      });
+  };
   return (
     <motion.form
       initial={{ opacity: 0 }}
@@ -69,7 +83,7 @@ export const Form = () => {
             rows="10"
           />
         </div>
-        <Button type="fill" onClick={() => handleOnClick()}>
+        <Button type="fill" path="/services/" onClick={handleSubmit}>
           Enviar
         </Button>
       </div>

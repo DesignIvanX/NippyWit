@@ -38,23 +38,23 @@ export const Form = () => {
       <div className={styles.bottom}>
         <div className={styles.content}>
           <div className={styles.contentInputTop}>
-            <label className={styles.label}>Nombre</label>
+            <label className={styles.label}>Nombre Completo</label>
             <input
               onChange={changeForm}
               className={styles.input}
               type="text"
-              name="name"
+              name="fullName"
               value={value.name}
               required
             />
           </div>
           <div className={styles.contentInputTop}>
-            <label className={styles.label}>Apellido</label>
+            <label className={styles.label}>Numero</label>
             <input
               onChange={changeForm}
               className={styles.input}
               type="text"
-              name="lastName"
+              name="number"
               value={value.lastName}
               required
             />

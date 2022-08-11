@@ -10,11 +10,10 @@ export const Newsletter = () => {
   };
 
   const handleSubmit = async (e) => {
-    const newUser = { email: value.email[0] };
     await axios
       .post(
         "https://nippywitbackend-production.up.railway.app/api/newsletter/",
-        newUser
+        value
       )
       .then((data) => {
         const alert = document.querySelector("#alert");

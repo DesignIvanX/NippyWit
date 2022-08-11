@@ -35,8 +35,8 @@ export const Newsletter = () => {
     >
       <div>
         <h2 className={styles.h2}>
-          Estas <span className={styles.active}>Interesado en Nuestros </span>
-          Servicios
+          ESTAS <span className={styles.active}>INTERESADO EN NUESTROS </span>
+          SERVICIOS
         </h2>
         <form className={styles.form}>
           <input

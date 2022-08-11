@@ -6,8 +6,8 @@ export const Information = () => {
     <section className={styles.content}>
       <div className={styles.text}>
         <h2 className={styles.h2}>
-          <span className={styles.active}>Nosotros te Ayudaremos</span> a Tener
-          la Presencia Digital.
+          <span className={styles.active}>NOSOTROS TE AYUDAREMOS</span> A TENER
+          LA PRESENCIA DIGITAL.
         </h2>
         <p className={styles.p}>
           En NippyWit entendemos que el éxito de nuestros clientes es nuestro

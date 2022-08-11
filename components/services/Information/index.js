@@ -15,7 +15,7 @@ export const Information = () => {
           todo lo posible para que tu negocio sea exitoso.
         </p>
         <p className={styles.p}>
-          Entendemos que para logar el exito no tenemos que dejar de mejorar.
+          Entendemos que para logar el exito no debemos dejar de avanzar.
           Proponemos a todos nuestros clientes a que nos dejen ayudarlos a
           mejorar cada día.
         </p>
